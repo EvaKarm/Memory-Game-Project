@@ -107,3 +107,77 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+.score-panel .timer {
+    display: inline-flex;
+    margin-left: 6em;
+}
+
+
+
+.score {
+  color: blue;
+  font-size: 33px;
+  list-style-type: none;
+  text-align: left;
+}
+
+#window{
+    width: 400px;
+		height: 400px;
+		margin: 50px auto;
+		display: none;
+		background: lightblue;
+		z-index: 200;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+    color: red;
+    text-align: center;
+
+	}
+
+#window .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+#window .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+  #window .restart {
+    display: inline-block;
+		cursor: pointer;
+  }
+
+	.close{
+		display: inline-block;
+		cursor: pointer;
+  	}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .deck {
+    width: 400px;
+    min-height: 420px;
+    padding: 20px;
+  }
+
+  .deck .card {
+    height: 80px;
+    width: 80px;
+  }
+
+  .deck .card.show {
+    font-size: 18px;
+  }
+}
