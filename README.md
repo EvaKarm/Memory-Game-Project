@@ -1,5 +1,7 @@
 # Memory Game Project
 
+You may play right now!!! [Have a look](http://htmlpreview.github.io/?https://github.com/EvaKarm/Memory-Game-Project/blob/master/index.html)
+
 ## Table of Contents
 
 * [Instructions](#instructions)
